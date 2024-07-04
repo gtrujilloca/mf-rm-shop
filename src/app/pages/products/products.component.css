@@ -1,0 +1,9 @@
+section {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(min(300px, 100%), 1fr));
+  gap: 1rem;
+  justify-items: center;
+  max-width: 1400px;
+  border: 2px solid #41be41;
+
+}

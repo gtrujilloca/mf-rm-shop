@@ -1,0 +1,21 @@
+img {
+  aspect-ratio: 3/ 4;
+}
+
+picture {
+  max-width: 200px;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  max-width: 1400px;
+}
+
+@media (max-width: 650px) {
+  section {
+    flex-direction: row;
+  }
+}
